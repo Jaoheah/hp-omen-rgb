@@ -32,8 +32,10 @@ The icon was created by Joey Schaff, also known as Jaoheah. I just traced the HP
 ## Packages
 
 ~~ArchLinux - install from [AUR]()~~
-```sh
-#yay -S hp-omen-rgb-git 
-```
+#```sh
+
+~~yay -S hp-omen-rgb-git~~ 
+
+#```
 
 AUR installation coming soon.
