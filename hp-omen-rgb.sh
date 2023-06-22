@@ -16,6 +16,6 @@ done
 
 ZONE_ID="$(printf "${1}" | sed 's/[^0-9]*//g')"
 
-[[ "${#ZONE_ID}" -ne 2 ]] && { echo 'hp-omen-rgb: ERROR! You must have the two digit Zone ID imputed after the command "hp-omen-rgb". There are four options. 00, 01, 02, and 03. For example to change the RGB value of Zone 1 you must type "hp-omen-rgb 01" '; exit 3; }
+[[ "${#ZONE_ID}" -ne 2 ]] && { echo 'hp-omen-rgb: ERROR! You must have the two digit Zone ID imputed after the command "hp-omen-rgb". There are four options. 00, 01, 02, and 03. For example to change the RGB value of Zone 1 you must type "sudo hp-omen-rgb 01" '; exit 3; }
 
 echo "$FINAL_COLOR" > "/sys/devices/platform/hp-wmi/rgb_zones/zone${ZONE_ID}"
