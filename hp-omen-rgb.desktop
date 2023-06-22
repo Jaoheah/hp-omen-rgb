@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=HP Omen RGB
+GenericName=hp-omen-rgb: A way to change the RGB lighting on HP Omen Laptops by Jaoheah
+Comment=A way to change the RGB lighting on HP Omen Laptops
+Keywords=RGB;HP;Omen;Laptop;hp-omen-rgb;
+Categories=System;Settings;Utilities;
+Exec=hp-omen-rgb
+Hidden=false
+Terminal=false
+Icon=hp-omen-rgb
