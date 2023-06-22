@@ -31,7 +31,7 @@ The icon was created by Joey Schaff, also known as Jaoheah. I just traced the HP
 
 ## Packages
 
-ArchLinux - install from [AUR](https://aur.archlinux.org/packages/wl-color-picker)
+~~ArchLinux - install from [AUR]()~~ soon
 ```sh
-yay -S wl-color-picker
+~~yay -S hp-omen-rgb-git~~ Soon
 ```
