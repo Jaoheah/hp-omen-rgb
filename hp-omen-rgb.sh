@@ -6,7 +6,7 @@
 
 FINAL_COLOR=
 
-ORIG_COLOR="$(sudo -u "${SUDO_USER}" zenity --color-selection --title="Select color for RGB zone" --color="#FFF" | sed 's/[^0-9,]*//g'; [[ "${PIPESTATUS[0]}" != 0 ]] && echo fail)"
+ORIG_COLOR="$(sudo -u "${SUDO_USER}" zenity --color-selection --title="Select color for RGB zone" --color="#FFF" | sed 's/[^0-9,]*//g' 2>/dev/null; [[ "${PIPESTATUS[0]}" != 0 ]] && echo fail)"
 
 [[ "$ORIG_COLOR" -eq fail ]] && { echo 'hp-omen-rgb: The command has been cancelled.'; exit 2; }
 
