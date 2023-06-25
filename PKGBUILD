@@ -16,3 +16,4 @@ package() {
 	
 	make -j1 DESTDIR="${pkgdir}" install
 }
+
